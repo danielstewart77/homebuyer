@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { 
+    height: 100%;
+    
+}
+body{
+    background-color: grey !important;
+}
+
+.btn-toolbar{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.btn-group{
+    margin: 0px;
+}
+.btn{
+    height: 40px;
+}
+
+.container{
+    background-image: url(./app/img/house.jpg);
+    display: flex;
+    width: auto !important;
+    /* min-width: 2048px;
+    max-height: 720px; */
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.text1{
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+a{
+    color: white !important;
+}
+.text2{
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    align-self: center;
+    width: max-content;
+}
