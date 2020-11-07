@@ -3,7 +3,7 @@ html, body {
     
 }
 body{
-    background-color: grey !important;
+    background-color: lightgray !important;
 }
 
 .btn-toolbar{
@@ -25,8 +25,8 @@ body{
     background-image: url(./app/img/house.jpg);
     display: flex;
     width: auto !important;
-    /* min-width: 2048px;
-    max-height: 720px; */
+    /* min-width: 2048px; */
+    max-height: 500px; 
     flex-direction: column;
     align-items: center;
     background-repeat: no-repeat;
@@ -55,4 +55,7 @@ a{
 .form{
     align-self: center;
     width: max-content;
+    border: slateblue;
+    border-style: solid;
+    border-width: 10px;
 }
