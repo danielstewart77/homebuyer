@@ -23,11 +23,11 @@ body{
 
 .container{
     background-image: url(./app/img/house.jpg);
-    display: flex;
-    width: auto !important;
-    /* min-width: 2048px; */
+    width: 100% !important;
+    /* width: auto !important; */
+    /* min-width: 2076px !important; */
     max-height: 500px; 
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     background-repeat: no-repeat;
 }
